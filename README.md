@@ -18,6 +18,14 @@ todo
 
 todo
 
+### Architecture
+
+todo
+
+### Code
+
+todo
+
 ## Software Selection
 
 todo
