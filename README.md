@@ -6,6 +6,10 @@ Demonstration of Monolithic Repository Continuous Integration and Deployment
 
 todo
 
+## Branch Strategy
+
+[Trunk Based](https://trunkbaseddevelopment.com/)
+
 ## Architecture
 
 todo
@@ -14,17 +18,19 @@ todo
 
 todo
 
-## Continuous Integration(CI)
+## Continuous Integration (CI)
 
 todo
 
-### Build Process
+### Build Pipeline
 
 todo
 
 ### Automated Testing
 
-## Continuous Deployment(CD)
+todo
+
+## Continuous Deployment (CD)
 
 todo
 
@@ -32,7 +38,19 @@ todo
 
 todo
 
+### Release Pipeline
+
+todo
+
 ### Zero-Downtime
+
+todo
+
+### Verification
+
+todo
+
+#### Rollback
 
 todo
 
