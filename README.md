@@ -6,7 +6,15 @@ Demonstration of Monolithic Repository Continuous Integration and Deployment
 
 todo
 
-## Branch Strategy
+## Version Control
+
+todo
+
+### Repository Structure
+
+todo
+
+### Branch Strategy
 
 [Trunk Based](https://trunkbaseddevelopment.com/)
 
