@@ -2,5 +2,5 @@
 # yarn lockfile v1
 
 
-"dir_build@file:../local-node-modules/directory-builder":
+"directory_builder@file:../local-node-modules/directory-builder":
   version "0.0.0"
