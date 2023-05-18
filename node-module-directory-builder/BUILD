@@ -12,6 +12,7 @@ nodejs_binary(
 directory_build(
     name = "node_module_directory_build",
     node_binary = ":node_module_directory_builder_binary",
+    number_of_files = 5,
     deps = [
         "@directory_builder//:directory_builder"
     ],

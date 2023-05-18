@@ -6,7 +6,7 @@ def _directory_build_impl(ctx):
         inputs = ctx.files.deps,
         outputs = [output_dir],
         executable = node_binary,
-        arguments = [output_dir.path],
+        arguments = [output_dir.path, "{}".format(ctx.attr.number_of_files)],
     )
 
     return [
@@ -17,6 +17,7 @@ directory_build = rule(
     implementation = _directory_build_impl,
     attrs = {
         "node_binary": attr.label(executable = True, cfg = "host"),
+        "number_of_files": attr.int(default = 3),
         "deps": attr.label_list(allow_files = True),
     },
 )
