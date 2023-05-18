@@ -21,4 +21,4 @@ node_modules
 .idea
 
 # Data Factory Build Files
-data-factory/downloads
+node-module-directory-builder/downloads

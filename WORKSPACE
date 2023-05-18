@@ -12,7 +12,7 @@ load("@build_bazel_rules_nodejs//:repositories.bzl", "build_bazel_rules_nodejs_d
 build_bazel_rules_nodejs_dependencies()
 
 # Set up the Node.js toolchain
-load("@build_bazel_rules_nodejs//:index.bzl", "node_repositories", "yarn_install")
+load("@build_bazel_rules_nodejs//:index.bzl", "node_repositories")
 
 node_repositories(
     node_version = "17.9.1",
@@ -20,13 +20,6 @@ node_repositories(
 )
 
 local_repository(
-    name = "dir_build",
-    path = "dir-build",
+    name = "directory_builder",
+    path = "local-node-modules/directory-builder",
 )
-
-# Create the repositories for the Node.js dependencies of the packages
-#yarn_install(
-#    name = "data_factory_npm",
-#    package_json = "//data-factory:package.json",
-#    yarn_lock = "//data-factory:yarn.lock",
-#)
