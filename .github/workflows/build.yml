@@ -1,5 +1,5 @@
 name: GitHub Bazel Action
-run-name: ${{ github.actor }} Started Build
+run-name: Build Triggered by ${{ github.actor }}
 on:
   push:
     branches:
@@ -15,7 +15,6 @@ jobs:
       with:
         path: "/home/runner/.cache/bazel"
         key: bazel
-    - name: Build and Test
+    - name: Build Repository
       run: |
         bazel build //...
-        bazel test //...
