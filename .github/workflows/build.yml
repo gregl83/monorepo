@@ -1,5 +1,4 @@
 name: Build
-run-name: Build Triggered by ${{ github.actor }}
 on:
   push:
     branches:
