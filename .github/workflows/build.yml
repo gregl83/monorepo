@@ -1,4 +1,4 @@
-name: GitHub Bazel Action
+name: Build
 run-name: Build Triggered by ${{ github.actor }}
 on:
   push:
