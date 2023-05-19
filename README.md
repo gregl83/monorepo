@@ -1,3 +1,4 @@
+[![.github/workflows/build.yml](https://github.com/gregl83/monorepo/actions/workflows/build.yml/badge.svg)](https://github.com/gregl83/monorepo/actions/workflows/build.yml)
 # monorepo
 
 Demonstration of Monolithic Repository Continuous Integration and Deployment
