@@ -21,5 +21,5 @@ node_repositories(
 
 local_repository(
     name = "directory_builder",
-    path = "local-node-modules/directory-builder",
+    path = "packages/npm/directory-builder",
 )
