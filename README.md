@@ -1,13 +1,12 @@
 [![.github/workflows/build.yml](https://github.com/gregl83/monorepo/actions/workflows/build.yml/badge.svg)](https://github.com/gregl83/monorepo/actions/workflows/build.yml)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/gregl83/monorepo/blob/master/LICENSE)
-
 # monorepo
 
 Demonstration of Monolithic Repository Continuous Integration and Deployment
 
 ## Purpose
 
-todo
+Provide example of polyglot project with managing a large number of software services.
 
 ## Version Control
 
