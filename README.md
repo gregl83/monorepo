@@ -6,7 +6,7 @@ Demonstration of Monolithic Repository Continuous Integration and Deployment
 
 ## Purpose
 
-todo
+Provide example of polyglot project with managing a large number of software services.
 
 ## Version Control
 
