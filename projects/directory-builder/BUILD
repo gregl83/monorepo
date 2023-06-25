@@ -1,4 +1,5 @@
 load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
+load("@bazel_paq//:defs.bzl", "paq")
 load(":directory_rules.bzl", "directory_build")
 
 nodejs_binary(
@@ -16,4 +17,8 @@ directory_build(
     deps = [
         "@directory_builder//:directory_builder"
     ],
+)
+paq(
+    name = "directory_build_hash",
+    source = ":directory_build",
 )
